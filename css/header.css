@@ -8,6 +8,7 @@ header {
 .carrossel__imagem {
     height: 1177px;
     width: 100%;
+    box-shadow: 0 0 4px 0 #ffffff69;
 }
 
 .menu{
@@ -82,6 +83,13 @@ header {
     margin: 1em auto;
     width: 214px;
 
+   
+}
 
-    
+.descubra-mais:hover{
+    background-color: #4bcf8b;
+    font-weight: 700;
+    transition: 650ms;
+    box-shadow: 3px 3px #64967d;
+
 }
