@@ -1,0 +1,49 @@
+.numbers{
+    background-image: url(../img/world-map.png);
+    height: 50em;
+    width: 100%;
+}
+
+.numbers__titulos{
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    text-align: center;
+    width: 80%;
+}
+
+.numbers_titulos--title h1{
+    margin: 2em auto 0 auto;
+
+}
+
+.numbers_titulos--title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.numbers__cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+
+}
+
+.numbers__cards--box{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+
+}
+
+.numbers__cards--box img{
+    padding-top: 3em;
+}
+
+
+
+
+
+
