@@ -1,0 +1,41 @@
+.destinations{
+    display: grid;
+    grid-template-areas: 
+        'map card1'
+        'map card2'
+        'map card3';
+    margin: 4em 0;
+}
+
+.destinations__map{
+    grid-area: map;
+    height: 100vh;
+    width: 80vh;
+}
+
+.destination__cards{
+    align-items: center;
+    background-color: #F4f4f4;
+    border-radius: 15px;
+    display: flex;
+    height: 23vh;
+    justify-content: center;
+    width: 52.5vh;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.15);
+
+}
+
+.destination__cards:hover{
+    background-color: #f4f4f434;
+    font-weight: 700;
+    box-shadow: 4px 4px  rgba(0, 0, 0, 0.15);
+    transition: 500ms;
+
+}
+
+.destination__cards--text{
+    padding: 0 0.8em;
+    font-weight: 600;
+    text-align: center;
+}
+
