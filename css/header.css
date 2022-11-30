@@ -43,6 +43,7 @@ header {
 
 .menu__link:hover{
     color: #054f77;
+    cursor: pointer;
     font-weight: 600;
     transition: 600ms;   
     padding: 0 2em;
@@ -88,8 +89,10 @@ header {
 
 .descubra-mais:hover{
     background-color: #4bcf8b;
+    cursor: pointer;
     font-weight: 700;
     transition: 650ms;
     box-shadow: 3px 3px #64967d;
+
 
 }

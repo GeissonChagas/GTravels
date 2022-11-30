@@ -4,13 +4,14 @@
         'map card1'
         'map card2'
         'map card3';
-    margin: 4em 0;
+    margin-top: 7em ;
 }
 
 .destinations__map{
     grid-area: map;
     height: 100vh;
     width: 80vh;
+
 }
 
 .destination__cards{
@@ -18,9 +19,9 @@
     background-color: #F4f4f4;
     border-radius: 15px;
     display: flex;
-    height: 23vh;
+    height: 24.5vh;
     justify-content: center;
-    width: 52.5vh;
+    width: 51vh;
     box-shadow: 2px 2px  rgba(0, 0, 0, 0.15);
 
 }
@@ -28,8 +29,10 @@
 .destination__cards:hover{
     background-color: #f4f4f434;
     font-weight: 700;
-    box-shadow: 4px 4px  rgba(0, 0, 0, 0.15);
+    box-shadow: 3px 3px  rgba(0, 0, 0, 0.400);
     transition: 500ms;
+    cursor: pointer;
+
 
 }
 

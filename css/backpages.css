@@ -1,0 +1,130 @@
+.backpages__titulo{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 4em auto;
+    width: 80%;
+}
+
+.button__select button{
+    background-color: #666666;
+    border-radius: 15px;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    height: 2.5em;
+    text-align: center;
+    width: 7em;
+
+}
+
+.button__select button:hover{
+    background-color: #00A651;
+    font-weight: 700;
+    transition: 650ms;
+    cursor: pointer;
+
+}
+
+.button__select--link{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.backpage{
+    display: grid;
+    grid-template-areas: 
+        'card1 card2 card3';
+    height: 30em;
+    margin: 2em auto;
+    width: 80%;
+    
+}
+
+.backpage__card1{
+    grid-area: card1;
+    margin: 0 1.5em;
+}
+
+.backpage__card2{
+    grid-area: card2;
+    margin: 0 1.5em;
+
+}
+
+.backpage__card3{
+    grid-area: card3;
+    margin: 0 1.5em;
+}
+
+.backpage__card--inside{
+    background-color: #F4f4f4;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #00000056;
+    display: grid;
+    grid-template-areas: 
+        'image image image'
+        'days days price'
+        'description figura local';
+    gap: 10px;
+
+
+}
+
+.backpage__card--inside p{
+    font-size: 14px;
+    margin: 0.1em;
+    padding: 0 0.5em;
+
+}
+
+.backpage__card--inside:hover{
+    background-color: #f4f4f475;
+    box-shadow: 3px 3px 3px #00000096;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+
+.image{
+    width: 100%;
+    height: 30vh;
+    grid-area: image;
+}
+
+.days{
+    grid-area: days;
+}
+
+.price{
+    grid-area: price;
+}
+
+.description{
+    grid-area: description;
+}
+
+.local{
+    grid-area: local;
+    text-align: right;
+    font-weight: 600;
+    padding-bottom: 0.2 em;
+}
+
+
+.figura{
+    grid-area: figura;
+}
+
+
+
+
+
