@@ -1,3 +1,8 @@
+.backpages{
+    background-color: #F9f9f9;
+    padding-top: 0.25em;    
+}
+
 .backpages__titulo{
     font-size: 22px;
     font-weight: 600;
@@ -66,7 +71,7 @@
 }
 
 .backpage__card--inside{
-    background-color: #F4f4f4;
+    background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: 3px 3px 3px #00000056;
     display: grid;
