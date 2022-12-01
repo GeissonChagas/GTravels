@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer__logo{
+    width: 5em;
+    height: 2em;
+    margin: 0 auto;
+}
+
+.footer__telefone{
+    font-size: 14px;
+    color: var(--cinza);
+    padding-top: 0.5em ;
+
+}
+
+.footer__email{
+    font-size: 14px;
+    color: var(--cinza);
+    padding-top: 0.5em ;
+
+}
+
+.footer__copyright{
+    font-size: 14px;
+    color: var(--cinza);
+    padding-top: 0.5em ;
+
+}
+
+.footer p{
+    color: #141414d5;
+    margin: 0 auto;
+
+    
+}
