@@ -1,43 +1,53 @@
-.footer{
+footer{
+    background-color: rgba(0, 0, 0, 0.479);    
+    text-align: center;
+    padding: 1em;
+
+}
+
+.footer__contato{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1em 0;
     width: 100%;
-    text-align: center;
+    text-align: cen ter;
     margin: 0 auto;
 }
 
 .footer__logo{
-    width: 5em;
-    height: 2em;
+    width: 7em;
+    height: 1.5em;
     margin: 0 auto;
 }
 
 .footer__telefone{
     font-size: 14px;
-    color: var(--cinza);
+    color: #FFFFFF;
     padding-top: 0.5em ;
 
 }
 
 .footer__email{
     font-size: 14px;
-    color: var(--cinza);
+    color: #FFFFFF;
     padding-top: 0.5em ;
 
 }
 
 .footer__copyright{
     font-size: 14px;
-    color: var(--cinza);
+    color: #FFFFFF;
     padding-top: 0.5em ;
 
 }
 
 .footer p{
-    color: #141414d5;
     margin: 0 auto;
-
-    
 }
+
+.footer__net{
+    padding: 1em 0.5em;
+}
+
+

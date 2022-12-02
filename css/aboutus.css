@@ -1,0 +1,60 @@
+#header2 {
+    background-image: url(../img/carrossel1.jpg );
+    height: 500px  ;
+    width: 100%;
+
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    height: 15em ;
+
+}
+
+.titulo2{
+    background-image: url(../img/world-map.png);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.titulo2__text{
+    font-size: 32px;
+}
+
+.whyus{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 3px 2px rgb(116, 112, 112), -3px 0 2px rgb(129, 126, 126);
+    height: 18em;
+    width: 15em;
+    margin: 3em auto;
+}
+
+.whyus__img{
+    margin-top: 1.5em;
+}
+
+.whyus__text1{
+    font-size: 20px;
+}
+
+.whyus__text2{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 14px;
+    margin-bottom: 1.5em;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 4em auto;
+    
+}
+
+.aboutus__text{
+    margin: 0 2.5em;
+    text-align: justify;
+}

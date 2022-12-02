@@ -1,0 +1,26 @@
+.our-team{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.our-team2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.our-team__card{
+    margin: 0 2em;
+}
+
+.our-team__card--p1{
+    margin: 0.25em auto;
+    font-weight: 600;
+}
+.our-team__card--p2{
+    margin: 0.25em 0 2em 0;
+    font-size: 14px;
+}
