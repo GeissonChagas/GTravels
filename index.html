@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="../gtravels/css/style.css">
 </head>
 
@@ -23,7 +24,7 @@
                     <div class="menu__item--itens">
                         <a class="menu__link" href="../gtravels/index.html">Início</a>
                         <a class="menu__link" href="../gtravels/aboutus.html">Sobre nós</a>
-                        <a class="menu__link" href="#">Pacotes</a>
+                        <a class="menu__link" href="../gtravels/contato.html">Contato</a>
                     </div>
                     <div class="menu__item--profile">
                         <a href="#"><img src="../gtravels/img/icon-menu.png" class="menu__botao" alt=""></a>
@@ -69,7 +70,7 @@
                 </div>
 
             </section>
-        </main>
+
 
             <section class="numbers">
                 <div class="numbers__titulos">
@@ -122,8 +123,7 @@
                     <img class="destination__cards--image" src="../gtravels/img/new-zeland.png">
                     <p class="destination__cards--text">Nova Zelândia</p>
                     <p class="destination__cards--text">20+ Spots 2D & 3N</p>
-                </div>
-                            
+                </div>                       
                 
             </section>
 
@@ -154,7 +154,7 @@
                             <button><a href="#" class="button__select--link">Mais</a></button>
                         </div>
                 </div>
-
+                
                 <div class="backpage">
                     <div class="backpage__card1">
                         <div class="backpage__card--inside">
@@ -165,6 +165,7 @@
                             <p class="local"><img class='figura' src="../gtravels/img/ep_location.png">Indonésia</p>
                         </div>
                     </div>
+
                     <div class="backpage__card2">
                         <div class="backpage__card--inside">
                             <img class="image" src="../gtravels/img/Japão.png">
@@ -175,6 +176,7 @@
                             <p class="local"><img class='figura' src="../gtravels/img/ep_location.png"> Japão</p>
                         </div>
                     </div>
+                    
                     <div class="backpage__card3">
                         <div class="backpage__card--inside">
                             <img class="image" src="../gtravels/img/thailand2.png">
@@ -186,6 +188,38 @@
                     </div>
                 </div>   
 
+            </section>
+
+            <section class="carrossel">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"></div>
+                        <img src="../gtravels/img/carrossel-asia.jpeg">
+                    <div class="swiper-slide"></div>
+                        <img src="../gtravels/img//carrossel-veneza.jpeg">
+                    <div class="swiper-slide"></div>
+                        <img src="../gtravels/img/carrossel-France.jpeg">
+                    <div class="swiper-slide"></div>
+                        <img src="../gtravels/img/carrossel-machupichu.jpeg">
+                    <div class="swiper-slide"></div>
+                        <img src="../gtravels/img/carrossel-portugal.jpeg">
+
+                    ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                
             </section>
 
             <section class="books">
@@ -214,6 +248,11 @@
                     </div>
 
             </section>
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script src="../gtravels/js/carrossel.js"></script>
+
+        </main>
 
             <footer class="footer">
                 <div class="footer__imagem">
