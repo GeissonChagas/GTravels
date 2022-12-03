@@ -78,3 +78,25 @@
     font-family: 'Open Sans';
     padding-left: 1em;
 }
+
+@media screen and (max-width:730px) {
+
+    #formulario-mapa{
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    #formulario{
+        width: 90%;
+        margin: auto;
+    }
+
+    #mapa{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    
+}

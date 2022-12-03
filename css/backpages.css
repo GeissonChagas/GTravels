@@ -129,6 +129,39 @@
     grid-area: figura;
 }
 
+@media screen and (max-width: 730px) {
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button__select{
+        margin: 0.5em auto;
+    }
+
+    .backpage{
+        display: flex;
+        flex-direction: column;
+        grid-template-areas: none; 
+        height: auto;
+        margin: 2em auto;
+        width: 80%;
+    }
+
+    .backpage__card1, .backpage__card2, .backpage__card3 {
+        margin: 2em auto;   
+    }
+
+    .backpage__card--inside{
+        display: flex;
+        flex-direction: column;
+    }
+        
+
+}
+
+
 
 
 

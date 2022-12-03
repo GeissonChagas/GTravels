@@ -65,4 +65,24 @@
 
 }
 
+@media screen and (max-width: 730px){
+
+    .our-service__title{
+        font-size: 24px;
+    }
+
+    .cards__item{
+        display: flex;
+        flex-direction: column;
+        margin: 2em auto;
+    }
+
+
+
+
+    
+    
+}
+
+
 

@@ -50,4 +50,19 @@ footer{
     padding: 1em 0.5em;
 }
 
+@media screen and (max-width: 730px) {
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__redes img{
+        display: inline-flex;
+
+    }
+
+}
+
 

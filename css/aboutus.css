@@ -1,5 +1,5 @@
 #header2 {
-    background-image: url(../img/carrossel3.jpeg);
+    background-image: url(../img/carrossel3\ \(2\).jpeg);
     height: 700px;
     width: 100%;
 
@@ -32,6 +32,13 @@
     margin: 3em auto;
 }
 
+.cards__whyus{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
 .whyus__img{
     margin-top: 1.5em;
 }
@@ -57,4 +64,36 @@
 .aboutus__text{
     margin: 0 2.5em;
     text-align: justify;
+}
+
+@media screen and (max-width: 730px) {
+
+    .titulo2{
+        background-image: url(../img/world-map.png);
+            text-align: center;
+    }
+
+    .aboutus h2{
+        text-align: center;
+    }
+
+    .cards__whyus{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutus__img img{
+        margin: 1em auto;
+        width: 100%;
+    }
+
+
 }

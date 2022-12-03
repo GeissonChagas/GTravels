@@ -3,7 +3,6 @@
 }
 
 .carrossel__titulo{
-    color: var(--laranja);
     text-align: center;
     text-transform: uppercase;
     background-color: var(--branco);
@@ -79,6 +78,17 @@
     text-decoration: none;
     margin: 0 1.4em 1em 0;
     width: 35%;
+
+}
+
+@media screen and (max-width: 730px) {
+
+
+    .carrossel h2{
+        display:none;
+    }
+
+
 
 }
 

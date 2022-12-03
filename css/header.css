@@ -31,6 +31,10 @@
     padding: 3em 0;
 }
 
+.menu__item--profile{
+    display: none;
+}
+
 .menu__link{
     color: #FFFFFF;
     font-size: 20px;
@@ -95,5 +99,22 @@
     box-shadow: 3px 3px #64967d;
 
 
+}
+
+@media screen and (max-width:730px) {
+    
+    #header {
+        height: 600px  ;
+    }
+    
+    .titulo__text{
+        display: none;
+    }
+
+    .descubra-mais{
+        display: none;
+    }
+    
+    
 }
 
